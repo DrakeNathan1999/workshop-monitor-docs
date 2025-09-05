@@ -67,7 +67,7 @@ const config: DocsThemeConfig = {
   //   text: 'Green Mountain Trader and Expansion Market documentation has been added! Read more →',
   // },
   chat: {
-    link: 'https://discord.gg/mirasaki',
+    link: 'https://discord.gg/38GQyg8E87',
   },
   darkMode: true,
   editLink: {
