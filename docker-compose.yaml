@@ -1,5 +1,5 @@
 services:
-  mirasaki-knowledge-base:
+  Workshop-monitor-knowledge-base:
     build:
       context: ./
       dockerfile: Dockerfile
