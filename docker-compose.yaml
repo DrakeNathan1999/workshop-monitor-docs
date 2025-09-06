@@ -1,5 +1,5 @@
 services:
-  Workshop-monitor-knowledge-base:
+  workshop-monitor-knowledge-base:
     build:
       context: ./
       dockerfile: Dockerfile
