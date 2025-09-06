@@ -8,8 +8,8 @@ const MDLogo = (props: any): ReactElement => (
   <Image
     src={'/logo.png'}
     alt='logo'
-    height={120 as number}
-    width={100 as number}
+    height={70 as number}
+    width={60 as number}
     {...props}
   />
 )
@@ -52,12 +52,11 @@ const TITLE = 'Wiki';
 
 const EDIT_TEXT = 'Edit this page on GitHub →';
 
-const FOOTER_LINK = 'https://vercel.com/';
+const FOOTER_LINK = 'https://steampowered.com';
 
 const FOOTER_LINK_TEXT = (
   <>
-    Powered by
-    <Vercel />
+We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Valve Corporation, or any of its subsidiaries or its affiliates. 
   </>
 )
 
@@ -212,7 +211,7 @@ const config: DocsThemeConfig = {
   toc: {
     title: 'Table of Contents',
     extraContent: (
-      <Image alt="banner" src="/images/logo-macbook.png" width={1920} height={1080} priority={true}/>
+      <Image alt="banner" src="/logo.png" width={1920} height={1080} priority={true}/>
     ),
     float: true
   },
